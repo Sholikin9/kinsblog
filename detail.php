@@ -154,7 +154,7 @@ require 'admin/function.php';
                                                 JOIN kategori AS c ON k.id_kategori = c.id_kategori
                                                 WHERE k.id_kategori='$data_id_kategori' && 
                                                 k.id_kontributor!='$data_id_kontributor'
-                                                -- k.id_kontributor<'$data_id_kontributor' =Psyauqi
+                                                -- k.id_kontributor<'$data_id_kontributor'
                                                 ORDER BY k.id_kontributor DESC";
                                             $result = $conn->query($sql);
                                             $nomortbl = 0;
