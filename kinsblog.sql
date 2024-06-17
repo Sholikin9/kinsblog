@@ -141,8 +141,8 @@ CREATE TABLE `penulis` (
 --
 
 INSERT INTO `penulis` (`id_penulis`, `username`, `password`, `email`) VALUES
-(1, 'Admin', '0192023a7bbd73250516f069df18b500', 'admin@ikin.com'),
-(2, 'Sholikin', 'c93ccd78b2076528346216b3b2f701e6', 'sholikin@ikin.com');
+(1, 'Admin', 'a3b4f96ca617223d6b2e8df4fb4e8db5', 'admin@gmail.com'),
+(2, 'Sholikin', 'c93ccd78b2076528346216b3b2f701e6', 'sholikin@gmail.com');
 
 --
 -- Indexes for dumped tables
